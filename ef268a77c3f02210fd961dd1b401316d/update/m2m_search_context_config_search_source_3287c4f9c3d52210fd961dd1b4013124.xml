@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="Interview Infor - Workspace Search">a58744f9b4d5221039389cd87e32cf5c</search_context_config>
+        <source display_value="Interview Infor - x_1639982_intervie_user_candidat">ae87c4f9c3d52210fd961dd1b401310a</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 11:10:48</sys_created_on>
+        <sys_id>3287c4f9c3d52210fd961dd1b4013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_3287c4f9c3d52210fd961dd1b4013124</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 11:10:48</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

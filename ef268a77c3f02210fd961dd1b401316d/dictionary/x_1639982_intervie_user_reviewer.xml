@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d5e39b54c3012210fd961dd1b40131e7" label="user_reviewer" max_length="40" name="x_1639982_intervie_user_reviewer" text_index="true" type="collection">
+        <element label="userid" max_length="40" name="userid" type="string"/>
+        <element display="true" label="username" max_length="40" name="username" type="string"/>
+        <index name="index">
+            <element name="userid"/>
+        </index>
+        <index name="index2">
+            <element name="username"/>
+        </index>
+    </element>
+</database>

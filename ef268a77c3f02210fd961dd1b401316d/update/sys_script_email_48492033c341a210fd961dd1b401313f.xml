@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>emailAddCC</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+		var records = new GlideRecord('sys_user_group');
+		records.addQuery('name','=','interviewer');
+		records.query();
+
+		while(records.next()){
+			var tmp = records.email.toString();
+			email.addAddress('cc', tmp, '');
+		}
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 08:31:07</sys_created_on>
+        <sys_id>48492033c341a210fd961dd1b401313f</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>emailAddCC</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_script_email_48492033c341a210fd961dd1b401313f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 05:49:03</sys_updated_on>
+    </sys_script_email>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>48492033c341a210fd961dd1b401313f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 08:31:06</sys_created_on>
+        <sys_id>4979acbfc301a210fd961dd1b40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 08:31:06</sys_updated_on>
+        <table>sys_script_email</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

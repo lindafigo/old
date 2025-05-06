@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="work_experience" table="x_1639982_intervie_user_candidate" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>work_experience</element>
+            <name>x_1639982_intervie_user_candidate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 07:10:23</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>work_experience</sys_name>
+            <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+            <sys_update_name>sys_choice_x_1639982_intervie_user_candidate_work_experience</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:10:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No experience</label>
+            <language>en</language>
+            <name>x_1639982_intervie_user_candidate</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 07:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:10:23</sys_updated_on>
+            <value>no_experience</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 ~ 3 Years</label>
+            <language>en</language>
+            <name>x_1639982_intervie_user_candidate</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 07:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:10:23</sys_updated_on>
+            <value>3_years</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 ~ 5 Years</label>
+            <language>en</language>
+            <name>x_1639982_intervie_user_candidate</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 07:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:10:23</sys_updated_on>
+            <value>5_years</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 ~ 10 Years</label>
+            <language>en</language>
+            <name>x_1639982_intervie_user_candidate</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 07:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:10:23</sys_updated_on>
+            <value>10_years</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>work_experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Over 10 Years</label>
+            <language>en</language>
+            <name>x_1639982_intervie_user_candidate</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 07:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:10:23</sys_updated_on>
+            <value>over_10_years</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

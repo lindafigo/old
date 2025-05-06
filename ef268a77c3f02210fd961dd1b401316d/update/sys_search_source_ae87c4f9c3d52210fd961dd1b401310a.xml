@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1639982_intervie_user_candidate">active=true</condition>
+        <group/>
+        <name>Interview Infor - x_1639982_intervie_user_candidat</name>
+        <roles/>
+        <source_table>x_1639982_intervie_user_candidate</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 11:10:47</sys_created_on>
+        <sys_id>ae87c4f9c3d52210fd961dd1b401310a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview Infor - x_1639982_intervie_user_candidat</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_search_source_ae87c4f9c3d52210fd961dd1b401310a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 11:10:47</sys_updated_on>
+    </sys_search_source>
+</record_update>

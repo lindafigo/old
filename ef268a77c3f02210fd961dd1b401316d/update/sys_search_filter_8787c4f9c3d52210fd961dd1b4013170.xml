@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="user_candidate">ba87c4f9c3d52210fd961dd1b401315e</ais_search_source>
+        <label>user_candidate</label>
+        <name>user_candidate</name>
+        <order>100</order>
+        <search_context_config display_value="Interview Infor AI Search Configuration">2d8744f9ced52210e7224d55f660e95c</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 11:10:49</sys_created_on>
+        <sys_id>8787c4f9c3d52210fd961dd1b4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_candidate</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_search_filter_8787c4f9c3d52210fd961dd1b4013170</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 11:10:49</sys_updated_on>
+    </sys_search_filter>
+</record_update>

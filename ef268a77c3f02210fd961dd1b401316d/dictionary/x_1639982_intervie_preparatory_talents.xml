@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5a2214bdc3896210fd961dd1b401319a" label="talents" max_length="40" name="x_1639982_intervie_preparatory_talents" type="collection">
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="User_sys_id" max_length="40" name="user_sys_id" type="string"/>
+        <element label="Phone_number" max_length="40" name="phone_number" type="longint"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

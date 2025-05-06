@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8a9f4e08c3496210fd961dd1b401313a" label="job" max_length="40" name="x_1639982_intervie_job" text_index="true" type="collection">
+        <element display="true" label="Job" max_length="100" name="job" type="string"/>
+    </element>
+</database>

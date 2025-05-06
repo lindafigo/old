@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>2_submit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+	if (g_user.hasRoleExactly('x_1639982_intervie.hr')) {
+		var flg = true;
+		// clean the message and the red color
+		g_form.clearMessages();
+		g_form.getControl('u_glide_date_1').style.backgroundColor = '';
+		g_form.getControl('states').style.backgroundColor = '';
+
+		// interviewer check
+		if (g_form.getValue('interviewer') == '') {
+			g_form.addErrorMessage('Please choose the interviewer!');
+			flg = false;
+		}
+		// interview date check
+		var currDate = g_form.getValue('u_glide_date_1');
+		if (currDate == '' && g_form.getValue('states') != 'not begain') {
+			g_form.addErrorMessage('Please choose the interview date!');
+			g_form.getControl('u_glide_date_1').style.backgroundColor = 'red';
+			flg = false;
+		}
+
+		// states check
+		if ( g_form.getValue('states') == 'not begain' 
+			&& g_form.getValue('u_glide_date_1') != '') {
+			g_form.addErrorMessage('Please choose the status!');
+			g_form.getControl('states').style.backgroundColor = 'red';
+			flg = false;
+		}
+
+		return flg;
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-30 06:54:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abe56214c3516610fd961dd1b401315c</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>2_submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_script_client_abe56214c3516610fd961dd1b401315c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-05 04:32:37</sys_updated_on>
+        <table>x_1639982_intervie_user_candidate</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_1639982_intervie.candidate,x_1639982_intervie.hr,x_1639982_intervie.interviewer</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-16 05:46:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a901ebfc3b42210fd961dd1b40131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_app_application_4a901ebfc3b42210fd961dd1b40131ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-16 05:46:46</sys_updated_on>
+        <title>Interview</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interview">ef268a77c3f02210fd961dd1b401316d</application>
+        <file_path/>
+        <instance_id>70df0316db5271d092f5684e139619e2</instance_id>
+        <instance_name>dev206268</instance_name>
+        <name>sys_app_application_4a901ebfc3b42210fd961dd1b40131ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_1639982_intervie.candidate,x_1639982_intervie.hr,x_1639982_intervie.interviewer</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-16 05:46:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4a901ebfc3b42210fd961dd1b40131ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Interview</sys_name><sys_overrides/><sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package><sys_policy/><sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope><sys_update_name>sys_app_application_4a901ebfc3b42210fd961dd1b40131ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-16 05:46:46</sys_updated_on><title>Interview</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-736119459</payload_hash>
+        <record_name>Interview</record_name>
+        <reverted_from/>
+        <source>7726ceb3c3b42210fd961dd1b4013111</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-16 05:46:47</sys_created_on>
+        <sys_id>7cc05abfc3b42210fd961dd1b40131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1963d22b5800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-16 05:46:47</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>70c05abfb8b42210fbb8a07916b289cf</update_guid>
+        <update_guid_history>70c05abfb8b42210fbb8a07916b289cf:-736119459</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Interview">36521e73c3f42210fd961dd1b4013171</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-16 05:53:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>4f6c60c075384b30a6aec713a4632284</sys_id>
+        <sys_metadata>4a901ebfc3b42210fd961dd1b40131ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_scope_delete display_value="">4a418414611a4966ad8f569c3f2b7cc9</sys_scope_delete>
+        <sys_update_name>sys_app_application_4a901ebfc3b42210fd961dd1b40131ab</sys_update_name>
+        <sys_update_version display_value="sys_app_application_4a901ebfc3b42210fd961dd1b40131ab">7cc05abfc3b42210fd961dd1b40131cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-16 05:53:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

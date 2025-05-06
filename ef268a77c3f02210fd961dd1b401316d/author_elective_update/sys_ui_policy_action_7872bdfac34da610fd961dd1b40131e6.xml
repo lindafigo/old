@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>phone_number</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 11:16:17</sys_created_on>
+        <sys_id>7872bdfac34da610fd961dd1b40131e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>phone_number</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7872bdfac34da610fd961dd1b40131e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 15:02:17</sys_updated_on>
+        <table>x_1639982_intervie_user_candidate</table>
+        <ui_policy display_value="for user">4c741cbac385a610fd961dd1b4013184</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=7872bdfac34da610fd961dd1b40131e6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interview">ef268a77c3f02210fd961dd1b401316d</application>
+        <file_path/>
+        <instance_id>70df0316db5271d092f5684e139619e2</instance_id>
+        <instance_name>dev206268</instance_name>
+        <name>sys_ui_policy_action_7872bdfac34da610fd961dd1b40131e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>phone_number</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-25 11:16:17</sys_created_on><sys_id>7872bdfac34da610fd961dd1b40131e6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>phone_number</sys_name><sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package><sys_policy/><sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope><sys_update_name>sys_ui_policy_action_7872bdfac34da610fd961dd1b40131e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-25 15:02:17</sys_updated_on><table>x_1639982_intervie_user_candidate</table><ui_policy display_value="for user">4c741cbac385a610fd961dd1b4013184</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=7872bdfac34da610fd961dd1b40131e6"/></record_update>]]></payload>
+        <payload_hash>-1780533127</payload_hash>
+        <record_name>phone_number</record_name>
+        <reverted_from/>
+        <source>7726ceb3c3b42210fd961dd1b4013111</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 15:02:17</sys_created_on>
+        <sys_id>8e36623ec341e610fd961dd1b4013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1966d7887240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 15:02:17</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4636623e6541e6104cc8b0609c78f911</update_guid>
+        <update_guid_history>4636623e6541e6104cc8b0609c78f911:-1780533127,1f7279fa244da61026acc7a4bf30597f:1592797181</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 16:10:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>157fdcf2ff764734a8852b93e99a8d81</sys_id>
+        <sys_metadata>7872bdfac34da610fd961dd1b40131e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>phone_number</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_scope_delete display_value="">4a418414611a4966ad8f569c3f2b7cc9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7872bdfac34da610fd961dd1b40131e6</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7872bdfac34da610fd961dd1b40131e6">8e36623ec341e610fd961dd1b4013111</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 16:10:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

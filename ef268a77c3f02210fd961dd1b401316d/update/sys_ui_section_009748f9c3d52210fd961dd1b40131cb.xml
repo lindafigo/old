@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Internal Info" section_id="009748f9c3d52210fd961dd1b40131cb" sys_domain="global" table="x_1639982_intervie_user_candidate" version="3" view="workspace-interview-infor-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-04 11:10:53</sys_created_on>
+            <sys_id>889748f9c3d52210fd961dd1b40131cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Internal Info" display_value="Internal Info" name="x_1639982_intervie_user_candidate" sys_domain="global" view="a98744f97fd522102a078091b53c085b">009748f9c3d52210fd961dd1b40131cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-04 11:10:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>feedback</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-04 11:10:53</sys_created_on>
+            <sys_id>049748f9c3d52210fd961dd1b40131cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Internal Info" display_value="Internal Info" name="x_1639982_intervie_user_candidate" sys_domain="global" view="a98744f97fd522102a078091b53c085b">009748f9c3d52210fd961dd1b40131cb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-04 11:10:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Internal Info</caption>
+            <header>false</header>
+            <name>x_1639982_intervie_user_candidate</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-04 11:10:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>009748f9c3d52210fd961dd1b40131cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1639982_intervie_user_candidate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+            <sys_update_name>sys_ui_section_009748f9c3d52210fd961dd1b40131cb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-04 11:10:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Interview Infor 0" name="workspace-interview-infor-0">a98744f97fd522102a078091b53c085b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

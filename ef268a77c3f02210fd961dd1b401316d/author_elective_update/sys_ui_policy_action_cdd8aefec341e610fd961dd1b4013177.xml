@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>date_of_birth</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 15:13:55</sys_created_on>
+        <sys_id>cdd8aefec341e610fd961dd1b4013177</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>date_of_birth</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_cdd8aefec341e610fd961dd1b4013177</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 15:14:37</sys_updated_on>
+        <table>x_1639982_intervie_user_candidate</table>
+        <ui_policy display_value="for user new record">a69866bec341e610fd961dd1b401312e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=cdd8aefec341e610fd961dd1b4013177"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interview">ef268a77c3f02210fd961dd1b401316d</application>
+        <file_path/>
+        <instance_id>70df0316db5271d092f5684e139619e2</instance_id>
+        <instance_name>dev206268</instance_name>
+        <name>sys_ui_policy_action_cdd8aefec341e610fd961dd1b4013177</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>date_of_birth</field><field_message/><field_message_type>none</field_message_type><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-25 15:13:55</sys_created_on><sys_id>cdd8aefec341e610fd961dd1b4013177</sys_id><sys_mod_count>1</sys_mod_count><sys_name>date_of_birth</sys_name><sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package><sys_policy/><sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope><sys_update_name>sys_ui_policy_action_cdd8aefec341e610fd961dd1b4013177</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-25 15:14:37</sys_updated_on><table>x_1639982_intervie_user_candidate</table><ui_policy display_value="for user new record">a69866bec341e610fd961dd1b401312e</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=cdd8aefec341e610fd961dd1b4013177"/></record_update>]]></payload>
+        <payload_hash>-741157541</payload_hash>
+        <record_name>date_of_birth</record_name>
+        <reverted_from/>
+        <source>7726ceb3c3b42210fd961dd1b4013111</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 15:14:37</sys_created_on>
+        <sys_id>6e09a232c381e610fd961dd1b401317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1966d83d03d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 15:14:37</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>2609a232d681e610aed929b14251087e</update_guid>
+        <update_guid_history>2609a232d681e610aed929b14251087e:-741157541,d8e8aafe7841e6107f76261ece94db3e:962669106</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 15:53:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3076c22555114b308f7881be64b0ba71</sys_id>
+        <sys_metadata>cdd8aefec341e610fd961dd1b4013177</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_of_birth</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_scope_delete display_value="">4a418414611a4966ad8f569c3f2b7cc9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_cdd8aefec341e610fd961dd1b4013177</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_cdd8aefec341e610fd961dd1b4013177">6e09a232c381e610fd961dd1b401317e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 15:53:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

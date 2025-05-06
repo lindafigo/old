@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="interview-infor Search Profile">e18744f997d522107d06c1f03a41d770</profile>
+        <search_source display_value="job">878708f9c3d52210fd961dd1b4013106</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 11:10:50</sys_created_on>
+        <sys_id>878708f9c3d52210fd961dd1b4013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>interview-infor Search Profile.job</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_878708f9c3d52210fd961dd1b4013109</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 11:10:50</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1639982_intervie_user_candidate</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>2_Talents_Search</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var name = current.getValue('name');
+	var email = current.getValue('email');
+	var phone = current.getValue('phone_number');
+	var namesss = current.getValue('interviewer');
+	// select * from Preparatory_talents where name=? and (email =? or phone = ?)
+	var re = new GlideRecord('x_1639982_intervie_preparatory_talents');
+	re.addQuery('name', name);
+	var orCondition = re.addQuery('email', email);
+	orCondition.addOrCondition('phone', phone);
+	re.query();
+	if (re.next()) {  
+		if (re.user_sys_id != current.sys_id) {
+			gs.addErrorMessage('Sorry, you can not submit a job application within 6 months!!');  
+			current.setAbortAction(true); 
+		}
+	} 
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:49:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e12a89fdc38d6210fd961dd1b401319c</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>2_Talents_Search</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_script_e12a89fdc38d6210fd961dd1b401319c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-05 16:43:59</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e12a89fdc38d6210fd961dd1b401319c"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e12a89fdc38d6210fd961dd1b401319c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:49:14</sys_created_on>
+        <sys_id>a3da8dfdc38d6210fd961dd1b4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:49:14</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

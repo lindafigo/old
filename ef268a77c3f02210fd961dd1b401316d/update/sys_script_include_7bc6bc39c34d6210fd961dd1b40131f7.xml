@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1639982_intervie.checkUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>checkUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var checkUtils = Class.create();
+checkUtils.prototype = {
+    initialize: function() {
+    },
+	// Check if the candidate has applied within the past 6 months
+	CheckLength: function(strValue, maxLength) {
+		var tmp = strValue.toString();
+		if (tmp.length > maxLength) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	,
+    type: 'checkUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 04:22:48</sys_created_on>
+        <sys_id>7bc6bc39c34d6210fd961dd1b40131f7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>checkUtils</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_script_include_7bc6bc39c34d6210fd961dd1b40131f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 14:25:16</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>7bc6bc39c34d6210fd961dd1b40131f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 04:22:47</sys_created_on>
+        <sys_id>05173879c34d6210fd961dd1b40131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 04:22:47</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

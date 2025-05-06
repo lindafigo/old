@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>2dfd7fadc3952210fd961dd1b4013186</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>interview-experience</path>
+        <root_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 10:28:56</sys_created_on>
+        <sys_id>e9fd7fadc3952210fd961dd1b401318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview Experience</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_ux_page_registry_e9fd7fadc3952210fd961dd1b401318a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 10:28:56</sys_updated_on>
+        <title>Interview Experience</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interview">ef268a77c3f02210fd961dd1b401316d</application>
+        <file_path/>
+        <instance_id>70df0316db5271d092f5684e139619e2</instance_id>
+        <instance_name>dev206268</instance_name>
+        <name>sys_ux_page_registry_e9fd7fadc3952210fd961dd1b401318a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>2dfd7fadc3952210fd961dd1b4013186</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>interview-experience</path><root_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-04 10:28:56</sys_created_on><sys_id>e9fd7fadc3952210fd961dd1b401318a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Interview Experience</sys_name><sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package><sys_policy/><sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope><sys_update_name>sys_ux_page_registry_e9fd7fadc3952210fd961dd1b401318a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-04 10:28:56</sys_updated_on><title>Interview Experience</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1040327851</payload_hash>
+        <record_name>Interview Experience</record_name>
+        <reverted_from/>
+        <source>7726ceb3c3b42210fd961dd1b4013111</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 10:28:56</sys_created_on>
+        <sys_id>6dfd7fadc3952210fd961dd1b401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1969ad7809a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 10:28:56</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>21fd7fad87952210b4b9d29051414e8e</update_guid>
+        <update_guid_history>21fd7fad87952210b4b9d29051414e8e:-1040327851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 11:07:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0f3c663922dc4d6d813b32f744cd0bc1</sys_id>
+        <sys_metadata>e9fd7fadc3952210fd961dd1b401318a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview Experience</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_scope_delete display_value="">4a418414611a4966ad8f569c3f2b7cc9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_e9fd7fadc3952210fd961dd1b401318a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_e9fd7fadc3952210fd961dd1b401318a">6dfd7fadc3952210fd961dd1b401318e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 11:07:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

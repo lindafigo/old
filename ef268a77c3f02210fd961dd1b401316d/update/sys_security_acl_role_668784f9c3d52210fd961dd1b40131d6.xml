@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 11:10:47</sys_created_on>
+        <sys_id>668784f9c3d52210fd961dd1b40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1639982.interview-infor.*.x_1639982_intervie.hr</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_security_acl display_value="x.1639982.interview-infor.*">218744f9f1d52210f1c53d4f9b82fa5c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_668784f9c3d52210fd961dd1b40131d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 11:10:47</sys_updated_on>
+        <sys_user_role display_value="x_1639982_intervie.hr" name="x_1639982_intervie.hr">ac30debfc3b42210fd961dd1b4013110</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-05-04 10:28:59</sys_created_on>
+        <sys_id>c2fd37edc3952210fd961dd1b40131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1639982.interview-experience.*.admin</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_security_acl display_value="x.1639982.interview-experience.*">42fdf3edc3952210fd961dd1b40131c6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c2fd37edc3952210fd961dd1b40131a4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-04 10:28:59</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

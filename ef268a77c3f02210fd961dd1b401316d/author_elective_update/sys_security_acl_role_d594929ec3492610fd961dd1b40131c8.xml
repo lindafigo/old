@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 00:28:29</sys_created_on>
+        <sys_id>d594929ec3492610fd961dd1b40131c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1639982_intervie_user_candidate.user</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_security_acl display_value="x_1639982_intervie_user_candidate">6594fd25c3cd2210fd961dd1b401317f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d594929ec3492610fd961dd1b40131c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 00:28:29</sys_updated_on>
+        <sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interview">ef268a77c3f02210fd961dd1b401316d</application>
+        <file_path/>
+        <instance_id>70df0316db5271d092f5684e139619e2</instance_id>
+        <instance_name>dev206268</instance_name>
+        <name>sys_security_acl_role_d594929ec3492610fd961dd1b40131c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-24 00:28:29</sys_created_on><sys_id>d594929ec3492610fd961dd1b40131c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1639982_intervie_user_candidate.user</sys_name><sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package><sys_policy/><sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope><sys_security_acl display_value="x_1639982_intervie_user_candidate">6594fd25c3cd2210fd961dd1b401317f</sys_security_acl><sys_update_name>sys_security_acl_role_d594929ec3492610fd961dd1b40131c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-24 00:28:29</sys_updated_on><sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1003669982</payload_hash>
+        <record_name>x_1639982_intervie_user_candidate.user</record_name>
+        <reverted_from/>
+        <source>7726ceb3c3b42210fd961dd1b4013111</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 00:28:29</sys_created_on>
+        <sys_id>aca49e5ec3492610fd961dd1b4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19665322dbd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 00:28:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a0a49e5eb74926100f0df80d7c5f5e63</update_guid>
+        <update_guid_history>a0a49e5eb74926100f0df80d7c5f5e63:-1003669982</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1639982_intervie_user_candidate.user">8089827ac3cda610fd961dd1b40131f9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 12:56:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1f0e685181b84705ad797c6bb485d8d9</sys_id>
+        <sys_metadata>d594929ec3492610fd961dd1b40131c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1639982_intervie_user_candidate.user</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_parent display_value="x_1639982_intervie_user_candidate">6594fd25c3cd2210fd961dd1b401317f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_scope_delete display_value="">4a418414611a4966ad8f569c3f2b7cc9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d594929ec3492610fd961dd1b40131c8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d594929ec3492610fd961dd1b40131c8">aca49e5ec3492610fd961dd1b4013163</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 12:56:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

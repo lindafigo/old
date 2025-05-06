@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="04c19e33c3f42210fd961dd1b401318d" label="user_candidate" max_length="40" name="x_1639982_intervie_user_candidate" text_index="true" type="collection">
+        <element choice="3" default="no_experience" label="Work Experience" max_length="40" name="work_experience" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 ~ 3 Years" sequence="1" value="3_years"/>
+                <element inactive_on_update="false" label="3 ~ 5 Years" sequence="2" value="5_years"/>
+                <element inactive_on_update="false" label="5 ~ 10 Years" sequence="3" value="10_years"/>
+                <element inactive_on_update="false" label="No experience" sequence="0" value="no_experience"/>
+                <element inactive_on_update="false" label="Over 10 Years" sequence="4" value="over_10_years"/>
+            </choice>
+        </element>
+        <element choice="3" default="any_time" label="Interview Time" max_length="40" name="interview_time" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Within 7 days" sequence="1" value="within_7_days"/>
+                <element inactive_on_update="false" label="Within 15 days" sequence="2" value="within_15_days"/>
+                <element inactive_on_update="false" label="Within 30 days" sequence="3" value="within_30_days"/>
+                <element inactive_on_update="false" label="any time" sequence="0" value="any_time"/>
+                <element inactive_on_update="false" label="After 30 days" sequence="4" value="after_30_days"/>
+            </choice>
+        </element>
+        <element label="Phone Number" max_length="40" name="phone_number" type="longint"/>
+        <element attributes="update_exempt=true" label="Resume Attachment" max_length="40" name="resume_attachment" type="file_attachment"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element choice="1" label="sex" max_length="1" name="sex" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Male" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interview result" max_length="40" name="interview_result" type="string">
+            <choice>
+                <element inactive_on_update="false" label="pass" sequence="0" value="pass"/>
+                <element inactive_on_update="false" label="fail" sequence="1" value="fail"/>
+                <element inactive_on_update="false" label="pending" sequence="2" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not begain" label="Status" max_length="40" name="states" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Interview in progress" sequence="1" value="interview in progress"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in progress"/>
+                <element inactive="true" inactive_on_update="true" label="Completed" sequence="0" value="completed"/>
+                <element inactive="true" inactive_on_update="true" label="Interview completed" sequence="2" value="interview completed"/>
+                <element inactive_on_update="false" label="End" sequence="2" value="end"/>
+                <element inactive_on_update="false" label="Not begain" sequence="0" value="not begain"/>
+                <element inactive="true" inactive_on_update="true" label="Booking completed" sequence="0" value="booking completed"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="20" name="name" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Feedback" max_length="4000" name="feedback" type="string"/>
+        <element label="Job Position" max_length="32" name="job_position" reference="x_1639982_intervie_job" type="reference"/>
+        <element label="Interviewer" max_length="32" name="interviewer" reference="x_1639982_intervie_user_reviewer" type="reference"/>
+        <element label="Date Of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Interview Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <index name="index">
+            <element name="interviewer"/>
+        </index>
+        <index name="index2">
+            <element name="job_position"/>
+        </index>
+    </element>
+</database>

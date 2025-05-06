@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 01:42:33</sys_created_on>
+        <sys_id>0a6258bdc3896210fd961dd1b401317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1639982_intervie_preparatory_talents.x_1639982_intervie.preparatory_talents_user</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_security_acl display_value="x_1639982_intervie_preparatory_talents">026258bdc3896210fd961dd1b4013179</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0a6258bdc3896210fd961dd1b401317c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 01:42:33</sys_updated_on>
+        <sys_user_role display_value="x_1639982_intervie.preparatory_talents_user" name="x_1639982_intervie.preparatory_talents_user">b96250b5c3896210fd961dd1b40131be</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interview">ef268a77c3f02210fd961dd1b401316d</application>
+        <file_path/>
+        <instance_id>70df0316db5271d092f5684e139619e2</instance_id>
+        <instance_name>dev206268</instance_name>
+        <name>sys_security_acl_role_0a6258bdc3896210fd961dd1b401317c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 01:42:33</sys_created_on><sys_id>0a6258bdc3896210fd961dd1b401317c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1639982_intervie_preparatory_talents.x_1639982_intervie.preparatory_talents_user</sys_name><sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package><sys_policy/><sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope><sys_security_acl display_value="x_1639982_intervie_preparatory_talents">026258bdc3896210fd961dd1b4013179</sys_security_acl><sys_update_name>sys_security_acl_role_0a6258bdc3896210fd961dd1b401317c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 01:42:33</sys_updated_on><sys_user_role display_value="x_1639982_intervie.preparatory_talents_user" name="x_1639982_intervie.preparatory_talents_user">b96250b5c3896210fd961dd1b40131be</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2111346527</payload_hash>
+        <record_name>x_1639982_intervie_preparatory_talents.x_1639982_intervie.preparatory_talents_user</record_name>
+        <reverted_from/>
+        <source>7726ceb3c3b42210fd961dd1b4013111</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 01:42:33</sys_created_on>
+        <sys_id>4a6258bdc3896210fd961dd1b401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1965b29456c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 01:42:33</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>4e6258bdea896210dec0311cac01ec7e</update_guid>
+        <update_guid_history>4e6258bdea896210dec0311cac01ec7e:-2111346527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1639982_intervie_preparatory_talents.x_1639982_intervie.preparatory_talents_us">4f7563e2c3c1a610fd961dd1b4013122</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 01:00:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>51fbae1575574670a4973aab09b8cc10</sys_id>
+        <sys_metadata>0a6258bdc3896210fd961dd1b401317c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1639982_intervie_preparatory_talents.x_1639982_intervie.preparatory_talents_user</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_parent display_value="x_1639982_intervie_preparatory_talents">026258bdc3896210fd961dd1b4013179</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_scope_delete display_value="">4a418414611a4966ad8f569c3f2b7cc9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0a6258bdc3896210fd961dd1b401317c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0a6258bdc3896210fd961dd1b401317c">4a6258bdc3896210fd961dd1b401317f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 01:00:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

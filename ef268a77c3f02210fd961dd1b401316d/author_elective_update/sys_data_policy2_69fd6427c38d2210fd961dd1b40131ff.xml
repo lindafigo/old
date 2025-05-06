@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_1639982_intervie_user_candidate</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>interviewer</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 14:15:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69fd6427c38d2210fd961dd1b40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>interviewer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_update_name>sys_data_policy2_69fd6427c38d2210fd961dd1b40131ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 14:15:17</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Interview">ef268a77c3f02210fd961dd1b401316d</application>
+        <file_path/>
+        <instance_id>70df0316db5271d092f5684e139619e2</instance_id>
+        <instance_name>dev206268</instance_name>
+        <name>sys_data_policy2_69fd6427c38d2210fd961dd1b40131ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_1639982_intervie_user_candidate</model_table><reverse_if_false>true</reverse_if_false><short_description>interviewer</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-27 14:15:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>69fd6427c38d2210fd961dd1b40131ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>interviewer</sys_name><sys_overrides/><sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package><sys_policy/><sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope><sys_update_name>sys_data_policy2_69fd6427c38d2210fd961dd1b40131ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-27 14:15:17</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>-1750879174</payload_hash>
+        <record_name>interviewer</record_name>
+        <reverted_from/>
+        <source>7726ceb3c3b42210fd961dd1b4013111</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 14:15:17</sys_created_on>
+        <sys_id>8dae6427c38d2210fd961dd1b4013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196779a386f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 14:15:17</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>41ae64275e8d2210e0f803391c7c2300</update_guid>
+        <update_guid_history>41ae64275e8d2210e0f803391c7c2300:-1750879174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-27 14:15:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>69b9aaead0dc44c2b3a75af7885cd7e4</sys_id>
+        <sys_metadata>69fd6427c38d2210fd961dd1b40131ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>interviewer</sys_name>
+        <sys_package display_value="Interview" source="x_1639982_intervie">ef268a77c3f02210fd961dd1b401316d</sys_package>
+        <sys_parent display_value="user_candidate">04c19e33c3f42210fd961dd1b401318d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Interview">ef268a77c3f02210fd961dd1b401316d</sys_scope>
+        <sys_scope_delete display_value="">4a418414611a4966ad8f569c3f2b7cc9</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_69fd6427c38d2210fd961dd1b40131ff</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_69fd6427c38d2210fd961dd1b40131ff">8dae6427c38d2210fd961dd1b4013100</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-27 14:15:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
